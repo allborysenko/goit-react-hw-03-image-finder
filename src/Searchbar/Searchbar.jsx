@@ -30,10 +30,6 @@ class Searchbar extends Component {
       <>
         <header className={css.Searchbar}>
           <form className={css.SearchForm} onSubmit={this.handleSubmit}>
-            <button type="submit" className={css.SearchFormbutton}>
-              <span className={css.SearchFormbuttonlabel}>Search</span>
-            </button>
-
             <input
               className={css.SearchForminput}
               type="text"
@@ -43,6 +39,9 @@ class Searchbar extends Component {
               onChange={this.handleChange}
               value={this.state.value}
             />
+            <button type="submit" className={css.SearchFormbutton}>
+              <span className={css.SearchFormbuttonlabel}>Search</span>
+            </button>
           </form>
         </header>
       </>
