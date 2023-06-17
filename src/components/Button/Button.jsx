@@ -5,7 +5,7 @@ const Button = ({ children }) => {
     <button
       className={css.Button}
       onClick={() => {
-        searchLoadMore();
+        // searchLoadMore();
       }}
     >
       {children}
