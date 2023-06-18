@@ -16,17 +16,13 @@ class Searchbar extends Component {
       return;
     }
     this.props.handleSearch(this.state.value);
-
   };
 
   handleChange = ({ target: { value } }) => {
     this.setState({ value });
   };
 
-  
-
   render() {
-    
     return (
       <>
         <header className={css.Searchbar}>
