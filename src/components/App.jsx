@@ -47,7 +47,7 @@ export class App extends Component {
 
   handleSearch = searchText => {
     if (this.state.searchText === searchText) {
-      toast.error('Знайдено картинки за цим запитом, введыть новий запит!');
+      toast.error('Знайдено картинки за цим запитом, введіть новий запит!');
     }
     this.setState({
       searchText: searchText.toLowerCase(),
