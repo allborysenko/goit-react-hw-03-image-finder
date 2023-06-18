@@ -117,6 +117,7 @@ img {
 .SearchForminput::placeholder {
   font: inherit;
   font-size: 18px;
+  text-align: center;
 }
 
 /*
