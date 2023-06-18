@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import css from '../styles.module.css';
+import css from '../../styles.module.css';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -16,7 +16,7 @@ class Searchbar extends Component {
       return;
     }
     this.props.handleSearch(this.state.value);
-    this.setState({ value: '' });
+
   };
 
   handleChange = ({ target: { value } }) => {
@@ -26,6 +26,7 @@ class Searchbar extends Component {
   
 
   render() {
+    
     return (
       <>
         <header className={css.Searchbar}>

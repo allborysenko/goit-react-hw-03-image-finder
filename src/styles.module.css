@@ -111,7 +111,7 @@ img {
   outline: none;
   padding-left: 4px;
   padding-right: 4px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .SearchForminput::placeholder {
@@ -187,7 +187,8 @@ img {
   background-color: #3f51b5;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
-  display: inline-block;
+  display: block;
+  margin: 15px auto;
   color: #fff;
   border: 0;
   text-decoration: none;

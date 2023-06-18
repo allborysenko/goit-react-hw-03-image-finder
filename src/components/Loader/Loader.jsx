@@ -10,7 +10,12 @@ class Loader extends Component {
         height="80"
         width="80"
         ariaLabel="blocks-loading"
-        wrapperStyle={{}}
+        wrapperStyle={{
+          display: 'block',
+          justifyContent: 'center',
+          alignItems: 'center',
+          margin: 'auto',
+        }}
         wrapperclassName="blocks-wrapper"
       />
     );

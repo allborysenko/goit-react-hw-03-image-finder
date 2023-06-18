@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from 'styles.module.css';
 
 const ImageGalleryItem = ({ webformatURL, openModal, tag }) => {
@@ -8,4 +9,9 @@ const ImageGalleryItem = ({ webformatURL, openModal, tag }) => {
   );
 };
 
+ImageGalleryItem.propTypes = {
+  webformatURL: PropTypes.string,
+  largeImageURL: PropTypes.string,
+  tag: PropTypes.string,
+};
 export default ImageGalleryItem;
